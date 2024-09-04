@@ -1,0 +1,36 @@
+header{
+    border:solid,4px,rgb(247, 4, 4);
+    padding:20px;
+    font-size:42px;
+    color:rgb(255, 208, 208);
+    font-family: "Oswald", sans-serif;
+    background: rgb(26, 6, 161);
+
+}
+body
+{
+    color:rgb(255, 247, 247);
+    background:rgb(1, 28, 55)
+    
+
+    
+}
+.categoria-videos {
+    
+    display: flex;
+    
+}
+
+img {
+    height: 200px;
+}
+    
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
